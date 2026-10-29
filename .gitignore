@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python byte code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+
+# Large model binaries downloaded locally (optional to ignore or track)
+# assets/models/*.task
